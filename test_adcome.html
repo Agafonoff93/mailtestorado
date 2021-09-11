@@ -1,0 +1,890 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	<style>
+		@media (prefers-color-scheme: dark) {
+			.dark-theme {
+				color: #4b4b4b !important;
+			}
+		}
+
+		[data-ogsc].dark-theme {
+			color: #616161 !important;
+		}
+
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Verdana"] {
+			font-family: Verdana, Geneva, sans-serif !important;
+		}
+
+		[style*="PT Sans"] {
+			font-family: 'PT Sans', arial, sans-serif !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border: none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100% !important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		.menu td {
+			padding-left: 9px;
+		}
+
+		.header-td {
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+
+		.main-oder__text p {
+			color: #ffffff;
+		}
+
+		.main-oder__text {
+			border-radius: 20px;
+
+			padding-top: 25px;
+			padding-bottom: 25px;
+			padding-right: 15px;
+			padding-left: 15px;
+
+		}
+
+
+		.title-table-td {
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+		.title-table-td td span {
+			color: #ffffff;
+		}
+
+		.title-table-td td {
+			font-size: 12px;
+
+			padding-top: 17px;
+			padding-bottom: 17px;
+
+
+		}
+
+		.product__content-td {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		.product__items td {
+			font-size: 12px;
+			line-height: 17px;
+		}
+
+		.gifman {
+			vertical-align: bottom !important;
+		}
+
+		p,
+		span {
+			color: #353535;
+		}
+
+		.products__info-td {
+			padding-top: 22px;
+			padding-bottom: 22px;
+		}
+
+		.agreeorder-col td {
+			padding-bottom: 2px;
+		}
+
+		.footer-menu-td {
+			padding-top: 4px;
+			padding-bottom: 4px;
+		}
+
+		.footer-info-td {
+			padding-top: 13px;
+			padding-bottom: 35px;
+		}
+
+		.footer-info__number {
+			padding-top: 3px;
+		}
+
+		.footer-info__title {
+			padding-bottom: 10px;
+		}
+
+		.footer-info__title_news {
+			padding-bottom: 17px;
+		}
+
+		.footer-info__icon {
+			padding-right: 30px;
+		}
+
+		.footer-info__info-price-td {
+			padding-top: 30px;
+		}
+
+		.web-cert {
+			padding-top: 24px;
+		}
+
+		.footer-info__number span {
+			color: #ffffff !important;
+		}
+
+		@media (max-width: 535px) {
+
+			.gifman,
+			.dnone {
+				display: none;
+			}
+
+			.table-600 {
+				width: 340px !important;
+			}
+
+			.table-540 {
+				width: 330px !important;
+			}
+
+			.table-510 {
+				width: 300px !important;
+			}
+
+			.main-oder__text {
+				padding-right: 5px;
+				padding-left: 10px;
+			}
+
+			.oder-text-second {
+				font-size: 13px !important;
+			}
+
+			.oder-text-first {
+				font-weight: 600 !important;
+				font-size: 12px !important;
+			}
+
+			.footer-info__call {
+				display: block;
+			}
+
+			.footer-info__block {
+				display: block;
+				padding-top: 20px;
+			}
+
+			.block-td {
+				display: block;
+				padding-top: 10px;
+
+			}
+
+			.footer-menu__icon {
+				padding-bottom: 24px;
+			}
+
+			.bonus td img {
+				width: 155px !important;
+			}
+
+			.agreeorder-img {
+				padding-left: 10px !important;
+			}
+
+			.product__item a {
+				text-decoration: none;
+			}
+
+			.product__item p {
+				padding-left: 0 !important;
+				text-align: center;
+				text-decoration: none !important;
+			}
+
+			.height-td {
+				height: 15px !important;
+			}
+
+			.product__content-td {
+				text-align: center;
+			}
+
+			.title-table-td span {
+				font-size: 13px !important;
+			}
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+		письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#2f2f2f">
+		<!-- header -->
+		<tr>
+			<td>
+				<table class="main table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+
+					<tr>
+						<td bgcolor="#ffffff" class="dark-theme header-td">
+							<table class="table-540" cellpadding="0" cellspacing="0" width="540" align="center">
+								<tr>
+									<td align="left" class="logo">
+										<a target="_blank" href="https://www.eldorado.ru/"><img
+												src="https://agafonovateacher.ru/img/logo.png" alt="logo" /></a>
+									</td>
+									<td align="right" class="menu">
+										<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td><a target="_blank" href="https://www.eldorado.ru/personal/club/operations/"><img
+															src="https://agafonovateacher.ru/img/layer2.png" alt="layer"></a></td>
+												<td><a target="_blank" href="https://www.eldorado.ru/d/"><img
+															src="https://agafonovateacher.ru/img/menu1.png" alt="menu"></a></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /header -->
+
+		<!-- main -->
+		<tr>
+			<td>
+				<table class="dark-theme main-oder table-600" cellpadding="0" cellspacing="0" width="600" align="center"
+					bgcolor="#c2002e">
+
+					<tr>
+						<td>
+							<table class="main-oder__content table-540" cellpadding="0" cellspacing="0" width="600"
+								align="center">
+
+								<tr>
+									<td>
+										<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td class=" dnone" width="30"></td>
+												<td>
+													<table>
+														<tr>
+															<td height="30"></td>
+														</tr>
+														<tr>
+															<td class="main-oder__text" bgcolor="#a60228">
+																<p class="oder-text-first"
+																	style="font-family: Geneva, sans-serif, Verdana; font-size: 13px; font-weight: 700; margin-top: 0;margin-bottom: 10px;">
+																	Ваш заказ №ХХХХХХХХХ обрабатывается</p>
+																<p class="oder-text-second"
+																	style="font-family: Verdana, Geneva, sans-serif;;font-size: 13px; font-weight: normal;margin-top: 0;margin-bottom: 0px;">
+																	Мы
+																	подтвердим Ваш заказ в ближайшее время, а&nbsp;так же сообщим
+																	ожидаемую
+																	дату доставки
+																	по&nbsp;СМС и эл. почте или позвоним для уточнения.</p>
+															</td>
+														</tr>
+														<tr>
+															<td class="height-td" height="50"></td>
+														</tr>
+
+													</table>
+												</td>
+												<td class="gifman" style="vertical-align: bottom;" width="182" height="208">
+
+
+													<table cellpadding="0" cellspacing="0" border="0" width="182"
+														style="width: 182px !important; min-width: 86%; max-width: 182px;">
+														<tr>
+															<td align="center" valign="middle" height="188"
+																background="https://agafonovateacher.ru/img/GIF_1.gif"
+																style="width: 100%; background-image:url(https://agafonovateacher.ru/img/GIF_1.gif); background-position: center top; background-repeat: no-repeat; ">
+																<!--[if (gte mso 9)|(IE)]>
+																<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:182px;height:188px;">
+																<v:fill type="tile" src="https://agafonovateacher.ru/img/GIF_1.gif"  />
+																<v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+																<![endif]-->
+																<!--[if (gte mso 9)|(IE)]>
+																<table border="0" cellspacing="0" cellpadding="0" width="600" height=188">
+																<tr><td align="center" valign="top" width="182" height="188"><![endif]-->
+
+
+
+																<table cellpadding="0" cellspacing="0" border="0" width="100%"
+																	style="width: 100% !important; min-width: 100%; max-width: 100%;">
+																	<tr>
+																		<td style="vertical-align: center;" class="triangle" width="11"
+																			height="15">
+																			<div
+																				style=" border: 11px solid transparent; border-bottom: 15px solid #a60228; border-left: 9px solid #a60228; width: 0px; ">
+
+																			</div>
+																		</td>
+																		<td align="center" widht="171">
+
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height="45">
+
+																		</td>
+																	</tr>
+																</table>
+
+
+
+
+																<!--[if (gte mso 9)|(IE)]>
+																</td></tr>
+																</table><![endif]-->
+																<!--[if (gte mso 9)|(IE)]>
+																</v:textbox>
+																</v:rect>
+																<![endif]-->
+															</td>
+														</tr>
+													</table>
+
+
+												</td>
+												<td class=" dnone" width="8"></td>
+											</tr>
+										</table>
+									</td>
+
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- product -->
+		<tr>
+			<td class="product-td">
+				<table class="dark-theme main-oder table-600" cellpadding="0" cellspacing="0" width="600" align="center"
+					bgcolor="#c2002e">
+					<tr>
+						<td class=" dnone">
+							<img src="https://agafonovateacher.ru/img/object-l.png" alt="">
+						</td>
+						<td style="vertical-align: top;">
+							<table class="product table-540" cellpadding="0" cellspacing="0" width="540" align="center">
+								<tr>
+									<td class="dark-theme title-table-td" bgcolor="#7EB928">
+										<table class="table-510" cellpadding="0" cellspacing="0" width="510" align="center">
+											<tr>
+												<td>
+													<span style="font-family: 'PT Sans', Geneva, sans-serif;">ТОВАР</span>
+												</td>
+												<td align="center" width="96">
+													<span style="font-family: 'PT Sans', Geneva, sans-serif;">КОЛИЧЕСТВО</span>
+												</td>
+												<td width="10">
+												</td>
+												<td align="left" width="91">
+													<span style="font-family: 'PT Sans', Geneva, sans-serif;">СТОИМОСТЬ</span>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="dark-theme products__content-td" bgcolor="#ffffff">
+										<table class="table-510 product__items" cellpadding="0" cellspacing="0" width="510"
+											align="center">
+											<tr>
+												<td class="product__content-td">
+													<table class="table-510" cellpadding="0" cellspacing="0" width="510"
+														align="center">
+														<tr>
+															<td>
+																<table class="product__item" cellpadding="0" cellspacing="0">
+																	<tr>
+																		<td class="block-td" width="95"><img
+																				src="https://agafonovateacher.ru/img/product-tv.png"
+																				alt="tv" /></td>
+																		<td class="block-td">
+																			<a style="color:#353535" target="_blank"
+																				href="https://www.eldorado.ru/cat/detail/ultra-hd-4k-oled-televizor-55-sony-kd-55a8/">
+																				<p
+																					style="font-family: Verdana, Geneva, sans-serif; font-size: 12px; padding-left: 15px;">
+																					Ultra HD (4K) OLED телевизор 55" Sony KD-55A8</p>
+																			</a>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td align="center" width="95"><span
+																	style="font-family: Verdana, Geneva, sans-serif;">1</span></td>
+															<td width="10">
+															</td>
+															<td width="91"><span
+																	style="font-family: Verdana, Geneva, sans-serif;font-weight:700;">170
+																	990 р.</span></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="product__content-td">
+													<table class="table-510" cellpadding="0" cellspacing="0" width="510"
+														align="center">
+														<tr>
+															<td>
+																<table class="product__item" cellpadding="0" cellspacing="0">
+																	<tr>
+																		<td class="block-td" width="95"><img
+																				src="https://agafonovateacher.ru/img/product-vacuum.png"
+																				alt="робот-пылесос" /></td>
+																		<td class="block-td">
+																			<a style="color:#353535" target="_blank"
+																				href="https://www.eldorado.ru/cat/detail/robot-pylesos-tefal-explorer-serie-60-rg7455wh/">
+																				<p
+																					style="font-family: Verdana, Geneva, sans-serif; font-size: 12px; padding-left: 15px;">
+																					Робот-пылесос Tefal X-plorer Serie 60 (RG7455WH)</p>
+																			</a>
+
+																		</td>
+																		<td align="center" width="95"><span
+																				style="font-family: Verdana, Geneva, sans-serif;">1</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td width="10">
+															</td>
+															<td width="91"><span
+																	style="font-family: Verdana, Geneva, sans-serif;font-weight:700;">19
+																	990 р.</span></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="product__content-td">
+													<table class="table-510" cellpadding="0" cellspacing="0" width="510"
+														align="center">
+														<tr>
+															<td width="30"><img src="https://agafonovateacher.ru/img/icon-delivery.png"
+																	alt=""></td>
+															<td align="left"><span
+																	style="font-family: Verdana, Geneva, sans-serif;font-weight:700;">Доставка</span>
+															</td>
+
+															<td class="dnone" width="314">
+															</td>
+															<td width="91"><span
+																	style=" font-family: Verdana, Geneva, sans-serif;font-weight:700;">290
+																	р.</span></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="product__content-td">
+													<table class="table-510" cellpadding="0" cellspacing="0" width="510"
+														align="center">
+														<tr>
+
+															<td width="110"><span
+																	style="font-family: Verdana, Geneva, sans-serif;font-weight:700;font-size: 17px;">К&nbsp;ОПЛАТЕ:</span>
+															</td>
+
+															<td width="309">
+															</td>
+															<td width="91"><span
+																	style="font-family: Verdana, Geneva, sans-serif;font-weight:700;font-size: 16px;">191&nbsp;270&nbsp;р.</span>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="dark-theme products__info-td"
+										style="border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;" bgcolor="f3f3f3">
+										<table class="product__info-td-items table-510" cellpadding="0" cellspacing="0"
+											width="474" align="center">
+											<tr>
+												<td class="block-td">
+													<table cellpadding="0" cellspacing="0">
+														<tr>
+															<td class="agreeorder-img" width="41" style="vertical-align: top;">
+																<img src="https://agafonovateacher.ru/img/icon-person.png" alt="">
+															</td>
+															<td width="188" class="agreeorder">
+																<table class="agreeorder-col" cellpadding="0" cellspacing="0">
+																	<tr>
+																		<td>
+																			<span
+																				style="font-family: Verdana, Geneva, sans-serif;font-weight:bold;font-size: 12px;">
+																				Получатель</span>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td style="padding-bottom: 5px;">
+																			<span
+																				style="font-family: Verdana, Geneva, sans-serif;font-size: 12px;">Иван
+																				Иванович Иванов</span>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<span
+																				style="font-family: Verdana, Geneva, sans-serif;;font-size: 11px; line-height: 14px; color:#3535358A">
+																				Мы направили sms на номер
+																				+7&nbsp;ХХХ ХХХ ХХ ХХ
+																				с&nbsp;подтверждением заказа.</span>
+																		</td>
+																	</tr>
+																</table>
+
+
+
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="block-td">
+													<table cellpadding="0" cellspacing="0">
+														<tr>
+															<td width="48" style="vertical-align: top;">
+																<img src="https://agafonovateacher.ru/img/icon-delivery-big.png" alt="">
+															</td>
+															<td widht="190" class="agreeorder">
+																<table class="agreeorder-col" cellpadding="0" cellspacing="0">
+																	<tr>
+																		<td>
+																			<span
+																				style="font-family: Verdana, Geneva, sans-serif;font-weight:bold;font-size: 12px;">
+																				Доставка курьером
+																			</span>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td style="padding-bottom: 5px !important;">
+																			<span
+																				style="font-family: Verdana, Geneva, sans-serif;font-size: 12px;">
+																				Москва, ул. Тихая,д.2а,кв.12
+																			</span>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<span style="font-family: Verdana, Geneva, sans-serif;font-size: 11px;line-height: 14px; color:#3535358A;
+					">
+																				<b>Дата доставки заказа:</b>
+																				25.03.2020 <br />
+																				<b>Время:</b> с 09:00 по 22:00
+																			</span>
+																		</td>
+																	</tr>
+																</table>
+
+
+
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class=" dnone">
+							<img src="https://agafonovateacher.ru/img/object-r.png" alt="">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /product -->
+
+		<!-- bonus -->
+		<tr>
+			<td>
+				<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#c2002e">
+
+					<tr>
+						<td>
+							<table class="bonus table-540" cellpadding="0" cellspacing="0" width="540" align="center">
+								<tr>
+									<td><a target="_blank" href="https://www.eldorado.ru/club/referral/"><img
+												src="https://agafonovateacher.ru/img/GIF_2.gif" alt="1000 бонусов" /></a></td>
+									<td align="right"><a target="_blank"
+											href="https://www.eldorado.ru/promo/prm-bonuses-for-feedback/"><img
+												src="https://agafonovateacher.ru/img/GIF_3.gif" alt="Бонусы за отзывы" /></a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /bonus -->
+		<!-- ps -->
+		<tr>
+			<td>
+				<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#c2002e">
+					<tr>
+						<td align="center" style="padding-top: 33px;">
+							<p
+								style="font-family: Verdana, Geneva, sans-serif;font-weight:700;font-size: 15px; color: #ffffff;margin: 0;">
+								Ждем вас снова!</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding-top: 13px;padding-bottom: 25px;">
+							<p style="font-family: Verdana, Geneva, sans-serif;font-size: 15px; color: #ffffff;margin: 0;">Ваш
+								Эльдорадо.</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /ps -->
+		<!--alert -->
+		<tr>
+			<td>
+				<table class=" alert-info table-600" cellpadding="0" cellspacing="0" width="600" align="center"
+					bgcolor="#a60228">
+					<tr>
+						<td align="center" style="padding-top: 25px;padding-bottom: 23px;">
+							<p
+								style="font-family: Verdana, Geneva, sans-serif;font-size: 13px; color: #ffffff;margin: 0; line-height: 23px;">
+								Это письмо было отправлено автоматически. <br /> Если вы не создавали заказ на нашем ресурсе,
+								<a target="_blank" href="https://www.eldorado.ru/help/eldorado/contact_us.php"
+									style="color: #ffffff;">сообщите нам</a> об этом.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!--/alert -->
+		<!-- footer-menu -->
+		<tr>
+			<td>
+				<table class="dark-theme footer-menu table-600" cellpadding="0" cellspacing="0" width="600" align="center"
+					bgcolor="#76bc34">
+					<tr>
+						<td class="footer-menu-td">
+							<table class="dark-theme footer-menu__items table-540" cellpadding="0" cellspacing="0" width="540"
+								align="center" bgcolor="#76bc34">
+								<tr>
+									<td class="block-td" width="171" class="footer-menu__logo"><a
+											href="https://www.eldorado.ru/"><img
+												src="https://agafonovateacher.ru/img/footer-logo.png" alt="" /></a></td>
+									<td class="block-td">
+										<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td class="footer-menu__icon"><img src="https://agafonovateacher.ru/img/time.png"
+														alt="время"></td>
+												<td class="footer-menu__text"><a target="_blank"
+														href="https://www.eldorado.ru/promo/internetrassrochka/"><img
+															src="https://agafonovateacher.ru/img/one_minute.png"
+															alt="Одна минута" /></a></td>
+												<td class="footer-menu__icon"><img src="https://agafonovateacher.ru/img/wallet.png"
+														alt="оплата"></td>
+												<td class="footer-menu__text"><a target="_blank"
+														href="https://www.eldorado.ru/promo/110-uverennosti-v-tsene/"><img
+															src="https://agafonovateacher.ru/img/pricelow.png" alt="Низкая цена" /></a>
+												</td>
+												<td class="footer-menu__icon"><img src="https://agafonovateacher.ru/img/point.png"
+														alt="место"></td>
+												<td class="footer-menu__text"><a target="_blank"
+														href="https://www.eldorado.ru/help/delivery/"><img
+															src="https://agafonovateacher.ru/img/faster.png"
+															alt="Быстрая доставка" /></a></td>
+												<td class="footer-menu__icon"><img src="https://agafonovateacher.ru/img/flash.png"
+														alt="z">
+												</td>
+												<td class="footer-menu__text"><a target="_blank"
+														href="https://www.eldorado.ru/club/"><img
+															src="https://agafonovateacher.ru/img/bonuceprog.png"
+															alt="Бонусная программа" /></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /footer-menu -->
+		<!-- footer-info -->
+		<tr>
+			<td>
+				<table class="footer-info table-600" cellpadding="0" cellspacing="0" width="600" align="center"
+					bgcolor="#393e42">
+					<tr>
+						<td class="footer-info-td">
+							<table class="footer-info__container table-540" cellpadding="0" cellspacing="0" width="540"
+								align="center">
+								<tr>
+									<td class="footer-info__call" width="255">
+										<p class="footer-info__title"
+											style="font-family: Verdana, Geneva, sans-serif;font-size: 11px; font-weight: bold; color: #ffffff;margin: 0; line-height: 23px;">
+											Звоните</p>
+										<a href="tel:88002502525" class="footer-info__number"
+											style="font-family: Verdana, Geneva, sans-serif;font-size: 18px; font-weight: bold; color: #ffffff;margin: 0; text-decoration: none; line-height: 23px;">
+											8 800 250 25 25</a>
+									</td>
+									<td class="footer-info__block">
+										<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td>
+													<p class="footer-info__title footer-info__title_news"
+														style="font-family: Verdana, Geneva, sans-serif;font-size: 11px; font-weight: bold; color: #ffffff;margin: 0; ">
+														Следите за новостями</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table cellpadding="0" cellspacing="0" width="255">
+														<tr>
+															<td class="footer-info__icon"><a
+																	href="https://www.instagram.com/eldorado_ru/"><img
+																		src="https://agafonovateacher.ru/img/inst.png" alt="Inst" /></a>
+															</td>
+															<td class="footer-info__icon"><a
+																	href="https://www.facebook.com/Eldorado.Stores"><img
+																		src="https://agafonovateacher.ru/img/fb.png" alt="Facebook" /></a>
+															</td>
+															<td class="footer-info__icon"><a href="https://ok.ru/eldorado.stores"><img
+																		src="https://agafonovateacher.ru/img/ok.png" alt="OK" /></a></td>
+															<td class="footer-info__icon"><a href="https://vk.com/eldorado_stores"><img
+																		src="https://agafonovateacher.ru/img/vk.png" alt="VK" /></a></td>
+															<td class="footer-info__icon_end"><a
+																	href="https://www.youtube.com/user/eldoradovideo"><img
+																		src="https://agafonovateacher.ru/img/ytube.png"
+																		alt="YouTube" /></a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer-info-td">
+							<table class="footer-info__container table-540" cellpadding="0" cellspacing="0" width="540"
+								align="center">
+								<tr>
+									<td class="footer-info__text-td" width="500">
+										<p
+											style="font-family: Verdana, Geneva, sans-serif;font-size: 9px;  color: #8b8e90;margin: 0; line-height: 14px;">
+											Вы получили это письмо, так как подписались на рассылку от Эльдорадо. Чтобы не
+											пропускать наши <br /> акции и скидки, добавьте адрес <a style="color: #8b8e90;"
+												target="_blank"
+												href="mailto:eldorado@club.eldorado.ru">eldorado@club.eldorado.ru</a> в адресную
+											книгу.</p>
+									</td>
+
+								</tr>
+								<tr>
+									<td style="padding-top: 5px;">
+										<p
+											style="font-family: Verdana, Geneva, sans-serif;font-size: 9px;  color: #8b8e90;margin: 0; line-height: 14px;">
+											Вы можете <a style="color: #8b8e90;" href="{{UnsubscribeUrl}}">отписаться</a>, но мы
+											будем
+											скучать :(</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer-info__info-price-td" width="500">
+										<p
+											style="font-family: Verdana, Geneva, sans-serif;font-size: 9px;  color: #8b8e90;margin: 0; line-height: 14px;">
+											Цены действительны на момент отправки письма и могут различаться в зависимости от
+											региона покупки.</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="web-cert">
+										<table class="table-540" cellpadding="0" cellspacing="0" width="510">
+											<tr>
+												<td>
+													<p
+														style="font-family: Verdana, Geneva, sans-serif;font-size: 9px; color: #8b8e90;margin: 0; line-height: 14px;">
+														Веб-версия по <a style="color: #8b8e90;" href="{{WebLetterUrl}}">ссылке</a>.
+													</p>
+												</td>
+												<td align="right">
+													<p
+														style="font-family: Verdana, Geneva, sans-serif;font-size: 9px;  color: #8b8e90;margin: 0; line-height: 14px;">
+														© Эльдорадо, 2021
+													</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- /footer-info -->
+	</table>
+	</td>
+	</tr>
+	<!-- /main -->
+
+	</table>
+</body>
+
+</html>
